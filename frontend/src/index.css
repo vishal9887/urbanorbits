@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+[data-tooltip-id] {
+    z-index: 50;
+    background-color: #1f2937; /* Tailwind gray-800 */
+    color: white;
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-size: 0.875rem;
+    max-width: 200px;
+  }
+  
