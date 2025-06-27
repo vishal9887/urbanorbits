@@ -3,7 +3,8 @@ import { Link, useLocation, useNavigate } from "react-router-dom";
 import { Menu, X, Search, Loader2 } from "lucide-react";
 import RotatingText from "react-rotating-text";
 import axios from "axios";
-import logo from './assets/logo.png';
+import logo from '../assets/logo.png';
+
 
 const suggestions = [
   "Branding & Identity Systems",
