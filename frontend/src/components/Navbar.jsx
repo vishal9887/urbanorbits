@@ -3,6 +3,7 @@ import { Link, useLocation, useNavigate } from "react-router-dom";
 import { Menu, X, Search, Loader2 } from "lucide-react";
 import RotatingText from "react-rotating-text";
 import axios from "axios";
+import logo from './assets/logo.png';
 
 const suggestions = [
   "Branding & Identity Systems",
@@ -114,7 +115,7 @@ const Navbar = () => {
     <nav className="w-full px-8 py-4 bg-[#f1efec] text-black sticky top-0 z-30 shadow-lg">
       <div className="flex justify-between items-center max-w-screen-xl mx-auto w-full">
         <div className="flex items-center gap-6">
-          <img src="/logo.png" alt="Urban Orbits Logo" className="w-[70px] h-[70px]" />
+          <img src={logo} alt="Urban Orbits Logo" className="w-[70px] h-[70px]" />
           <span className="text-xl sm:text-2xl font-bold mr-80">Urban Orbits</span>
         </div>
 
